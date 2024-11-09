@@ -1,0 +1,6 @@
+crewai
+crewai_tools
+langhchain-huggingface
+boto3
+streamlit
+sqlite3
