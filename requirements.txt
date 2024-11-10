@@ -1,5 +1,5 @@
-crewai
-crewai_tools
-langchain-huggingface
-boto3
-sqlite3
+crewai==0.30.11
+crewai-tools==0.13.4
+langchain-huggingface==0.0.5
+boto3==1.34.121
+streamlit==1.25.0
