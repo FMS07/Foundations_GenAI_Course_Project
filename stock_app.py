@@ -10,8 +10,8 @@ from sqlite_backend import init_db, save_to_sqlite, retrieve_from_sqlite, check_
 load_dotenv()
 
 # Set OpenAI API key and NewsAPI key
-os.environ["OPENAI_API_KEY"] = ""
-NEWSAPI_KEY = "" # Make sure to add your NewsAPI key in the .env file
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY") # Make sure to add your NewsAPI key in the .env file
 
 # Ensure the SQLite database is initialized
 init_db()
