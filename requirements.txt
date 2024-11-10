@@ -3,5 +3,4 @@ crewai-tools
 langchain-huggingface
 boto3==1.34.121
 streamlit==1.25.0
-sqlite3
 yfinance
