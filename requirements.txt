@@ -1,6 +1,6 @@
 crewai
 crewai_tools
-langhchain-huggingface
+langchain-huggingface
 boto3
 streamlit
 sqlite3
